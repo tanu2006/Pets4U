@@ -1,0 +1,357 @@
+body{
+    margin: 0;
+    padding: 0;
+   overflow-y: scroll;
+   overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top1{
+	width: 100%;
+    display: flex;
+    padding: 2em ;
+    font-family: cursive;
+    background-color: pink;
+}
+
+
+.top1 img
+{
+	width: 50px;
+	height: 50px;
+	padding: 20px;
+
+}
+.top1 ul
+{
+	 display: flex;
+	 font-size: 22px;
+	 font-family: cursive;
+	 flex: 2;
+	 list-style-type: none;
+
+} 
+
+.top1 ul li{
+	padding-left: 5em;
+	padding-top: 0.5em;
+}
+
+.top1 a:hover{
+      background-color: white;
+      text-decoration: underline;
+      padding: 10px;
+      border-radius: 3px;
+}
+
+
+
+body a{
+	text-decoration: none;}
+
+.top2 ul
+{
+	text-align: center;
+	 display: flex;
+	 list-style-type: none;
+	 padding: 2em;
+	 font-size: 20px;
+	 font-family: cursive;
+	 padding-bottom: 3em;
+
+} 
+
+.top2 ul li{
+	padding-left: 4em;
+	flex: 1;
+	padding-top: 1em;
+	text-decoration: none;
+
+}
+
+.top2 a:hover{
+      background-color: pink;
+      text-decoration: underline;
+      padding: 10px;
+      border-radius: 3px;
+}
+
+.quiz{
+	-webkit-text-stroke: 0.05px black;
+    -webkit-text-fill-color: white;
+    font-family: cursive;
+	padding-left: 2em;
+	padding: 2em;
+	width: 100%;
+	background-image: url("https://cdn.pixabay.com/photo/2019/08/26/15/31/cute-4432051_960_720.jpg");
+	background-position: right;
+	background-size: cover;
+}
+.quiz a{
+	background: rgba(76, 76, 76 , 0.5);
+	border-radius: 3px;
+	border: 1px solid #ffffff;
+	padding: 0.5em;
+	color: white;
+}
+
+.quiz a:hover{
+
+	background-color: white;
+	border-radius: 3px;
+	border: 1px solid #ffffff;
+	padding: 0.5em;
+	color: purple;
+
+}
+
+.adoption {
+	width: 100%;
+	display: flex;
+
+}
+
+.adoption .Cat {
+    
+    text-align: center;
+    width: 100%;
+    margin-top: 2em;
+	padding: 4em;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-image: url("https://cdn.pixabay.com/photo/2019/06/12/15/07/cat-4269479_960_720.jpg");
+	background-size: cover;
+	background-position: center;
+	flex: 1;
+	cursor: pointer;
+
+}
+
+.adoption .Cat:hover{
+
+	 background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://cdn.pixabay.com/photo/2019/06/12/15/07/cat-4269479_960_720.jpg');
+     background-size: cover;
+	background-position: center;
+}
+
+.adoption .Cat h2 a{
+	 color: white;
+}
+
+
+.adoption .Dog {
+    
+    text-align: center;
+    width: 100%;
+    margin-top: 2em;
+	padding: 4em;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-image: url("https://cdn.pixabay.com/photo/2020/04/04/16/55/puppy-5003082_960_720.jpg");
+	background-size: all;
+	background-position: center;
+	flex: 1;
+	cursor: pointer;
+}
+
+.adoption .Dog:hover{
+
+	 background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://cdn.pixabay.com/photo/2020/04/04/16/55/puppy-5003082_960_720.jpg');
+    background-size: all;
+	background-position: center;
+}
+.adoption .Dog h2 a{
+	 color: white;
+
+	}
+
+.available 
+{
+
+	padding: 3em;
+
+}
+
+footer ul
+{
+	text-align: center;
+	 display: flex;
+	 list-style-type: none;
+	 padding: 2em;
+	 padding-bottom: 3em;
+	 background-color: pink;
+
+} 
+
+footer ul li{
+	padding-left: 4em;
+	flex: 1;
+	margin-top: 1em;
+	font-size: 22px;
+	 font-family: cursive;
+
+}
+
+.available h1{
+
+	padding-top: 2em;
+}
+
+.available h1 a{
+
+	margin-right: 10em;
+}
+
+.available h1 a:hover
+{
+       text-decoration: underline dotted purple;
+}
+
+footer ul li a:hover{
+
+	  background-color: white;
+      text-decoration: underline;
+      padding: 10px;
+      border-radius: 3px;
+
+
+}
+
+.available{
+	display: flex
+}
+
+
+
+#yellowleaf{
+
+	 animation: swayingy 1.7s infinite linear;
+    transform-origin: bottom;
+
+}
+
+@keyframes swayingy{
+	0%{
+        transform: skewX(-3deg);
+    }
+    50%{
+        transform: skewX(0deg);
+    }
+    100%{
+        transform: skewX(-3deg);
+    }
+}
+
+#blueleaf1{
+
+	 animation: swayingb 1.4s infinite linear;
+    transform-origin: bottom;
+
+}
+
+@keyframes swayingb{
+	0%{
+        transform: skewX(-3deg);
+    }
+    50%{
+        transform: skewX(0deg);
+    }
+    100%{
+        transform: skewX(-3deg);
+    }
+}
+
+#blueleaf2{
+
+	 animation: swayingc 1.4s infinite linear;
+    transform-origin: bottom;
+
+}
+
+@keyframes swayingc{
+	0%{
+        transform: skewX( 1deg);
+    }
+    50%{
+        transform: skewX(0deg);
+    }
+    100%{
+        transform: skewX(1deg);
+    }
+}
+#blueleaf3{
+
+	 animation: swayingd 1.9s infinite linear;
+    transform-origin: bottom;
+
+}
+
+@keyframes swayingd{
+	0%{
+        transform: skewX( 4deg);
+    }
+    50%{
+        transform: skewX(0deg);
+    }
+    100%{
+        transform: skewX(4deg);
+    }
+}
+
+#Cat{
+
+	 animation: peekingcat 1.4s infinite linear;
+    transform-origin: bottom;
+
+}
+
+@keyframes peekingcat{
+	0%{
+       transform: translatex(10px) translatey(-10px);
+    }
+    50%{
+        transform: translatex(0px) translatey(0px);
+    }
+    100%{
+        transform: translatex(10px) translatey(-10px);
+    }
+}
+
+#tail{
+	 animation: swayingd 1.9s infinite linear;
+    transform-origin: bottom;
+}
+
+@keyframes wag{
+
+	0%{
+        transform: skewX( 4deg);
+    }
+    50%{
+        transform: skewX(0deg);
+    }
+    100%{
+        transform: skewX(4deg);
+    }
+
+}
+
+#ball{
+
+	 animation: rolling 1.9s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes rolling{
+
+	0%{
+        transform: translateY(5px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+      transform: translateY(5px);
+    }
+
+}
